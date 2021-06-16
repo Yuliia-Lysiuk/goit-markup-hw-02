@@ -1,0 +1,130 @@
+:root {
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --third-text-color: #000000;
+  --main-font: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* Забрали підкреслення посилань */
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+/* Забрали маркери в списках */
+.list {
+  list-style-type: none;
+}
+/* логотип */
+.logo {
+  width: 145px;
+  height: 31px;
+  size: 26px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+}
+.logo.accent {
+  color: var(--accent-color);
+}
+.logo.studio {
+  color: var(--third-text-color);
+}
+/* Навігація */
+.link-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.tel {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.mail {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* Заголовок */
+.title-heroe {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: var(--main-bg-color); */
+}
+.button {
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-bg-color);
+  cursor: pointer;
+}
+/* Main */
+.section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.section-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 7;
+}
+.main-section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--secondary-text-color);
+}
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+.position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Footer */
+.footer-contact,
+.adress {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo {
+  color: var(--main-bg-color);
+}
+.adress {
+  color: var(--main-bg-color);
+}
