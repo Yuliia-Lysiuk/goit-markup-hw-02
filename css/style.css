@@ -12,6 +12,7 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-family: var(--main-font);
+  font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -29,14 +30,10 @@ body {
 }
 /* логотип */
 .logo {
-  width: 145px;
-  height: 31px;
-  size: 26px;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
   line-height: 1.2;
-}
-.logo.accent {
-  color: var(--accent-color);
 }
 .logo.studio {
   color: var(--third-text-color);
@@ -47,6 +44,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+.accent {
+  color: var(--accent-color);
 }
 .tel {
   font-weight: 500;
@@ -85,14 +85,11 @@ body {
 /* Main */
 .section-title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 .section-text {
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1, 7;
 }
 .main-section-title {
@@ -115,8 +112,6 @@ body {
 /* Footer */
 .footer-contact,
 .adress {
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 .footer-contact {
@@ -127,4 +122,30 @@ body {
 }
 .adress {
   color: var(--main-bg-color);
+}
+/* Portfolio */
+.nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+}
+.subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.desc-text {
+  font-size: 16px;
+  line-height: 1.89;
 }
